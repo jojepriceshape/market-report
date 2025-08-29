@@ -1,5 +1,4 @@
 
-Apollo.io
 <html lang="en"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
         window.__firebase_config = firebaseConfig;
         window.__initial_auth_token = initialAuthToken;
