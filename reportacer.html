@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Acer Market Analysis</title>
+    <!-- Use Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1f2937;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4b5563;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #111827;
+            color: #d1d5db;
+            padding: 2rem;
+        }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .table-container th, .table-container td {
+            padding: 12px 16px;
+        }
+
+        .table-container th {
+            font-weight: 600;
+            color: #e5e7eb;
+            background-color: #374151;
+            border-bottom: 2px solid #4b5563;
+        }
+
+        .table-container tr:nth-child(even) {
+            background-color: #1f2937;
+        }
+
+        .table-container tr:hover {
+            background-color: #374151;
+        }
+        
+        .bar-chart-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .bar-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .bar-label {
+            font-size: 0.875rem;
+            color: #d1d5db;
+            font-weight: 500;
+        }
+
+        .bar-wrapper {
+            background-color: #374151;
+            height: 1.5rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar {
+            height: 100%;
+            background-color: #3b82f6;
+            transition: width 0.5s ease-in-out;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300 p-8">
+    <div class="mx-auto w-full max-w-5xl bg-gray-800 rounded-2xl shadow-2xl transform transition-transform duration-500 hover:scale-[1.01]">
+        <!-- Header Section -->
+        <div class="bg-blue-600 p-6 md:p-8 text-white">
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">German Acer Market Analysis</h1>
+            <p class="mt-2 text-blue-100/80 text-sm sm:text-base">
+                Generated: 2025-08-22 | Account: luxplus.dk
+            </p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="p-6 md:p-8 space-y-12">
+            <!-- Market Overview -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-100">Market Overview</h2>
+                <div class="bg-gray-700/50 rounded-xl p-6 space-y-2">
+                    <p class="text-sm text-gray-400">
+                        The German Acer market shows strong retail penetration with <span class="text-green-400 font-semibold">13,822 total product listings</span> across a diverse range of price segments. The median market price sits at <span class="text-green-400 font-semibold">498.81 EUR</span> with an average of <span class="text-green-400 font-semibold">627.71 EUR</span>, indicating a healthy mix of budget and premium positioning.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Top Retailers by Acer Product Range -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-100">Top 10 Retailers by Acer Product Range</h2>
+                <div class="bar-chart-container">
+                    <div class="bar-item">
+                        <span class="bar-label">Kaufland.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Sotel.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Office-partner.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Playox.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Voelkner.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Otto.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Jacob.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Cyclotron.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">eBay.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 40%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <span class="bar-label">Galaxus.de</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bg-green-500" style="width: 35%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Market Insights -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-100">Key Market Insights</h2>
+                <div class="bg-gray-700/50 rounded-xl p-6 space-y-4">
+                    <h3 class="font-bold text-lg text-gray-200">1. Product Category Distribution</h3>
+                    <ul class="list-disc list-inside text-sm space-y-2 text-gray-400">
+                        <li><span class="font-semibold text-gray-300">Laptops</span> dominate with 372 unique models (38% of portfolio) at median 1,002.61 EUR.</li>
+                        <li><span class="font-semibold text-gray-300">Computer Monitors</span> follow with 322 models at significantly lower median 202.90 EUR.</li>
+                        <li><span class="font-semibold text-gray-300">Projectors</span> represent premium segment with 42 models at median 773.24 EUR.</li>
+                    </ul>
+                    
+                    <h3 class="font-bold text-lg text-gray-200 mt-6">2. Price Segmentation Analysis</h3>
+                    <p class="text-sm text-gray-400">Acer Product Distribution by Price Segment</p>
+                    <div class="bar-chart-container">
+                        <div class="bar-item">
+                            <span class="bar-label">Under 200€</span>
+                            <div class="bar-wrapper">
+                                <div class="bar bg-purple-500" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">200-500€</span>
+                            <div class="bar-wrapper">
+                                <div class="bar bg-purple-500" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">500-1000€</span>
+                            <div class="bar-wrapper">
+                                <div class="bar bg-purple-500" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">1000-2000€</span>
+                            <div class="bar-wrapper">
+                                <div class="bar bg-purple-500" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <span class="bar-label">Over 2000€</span>
+                            <div class="bar-wrapper">
+                                <div class="bar bg-purple-500" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-400 italic mt-4">
+                        The market shows balanced distribution with the <span class="font-semibold text-gray-300">500-1000 EUR segment being most competitive</span> (399 products), followed closely by the budget segments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Competitive Landscape & Challenges -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-100">Competitive Landscape & Challenges</h2>
+                <div class="bg-gray-700/50 rounded-xl p-6 space-y-4">
+                    <h3 class="font-bold text-lg text-gray-200">Market Challenges:</h3>
+                    <ul class="list-disc list-inside text-sm space-y-2 text-gray-400">
+                        <li><span class="font-semibold text-gray-300">Intense Price Competition:</span> Budget retailers like Playox.de and Cyclotron.de frequently lead on price, suggesting aggressive pricing strategies in the lower segments.</li>
+                        <li><span class="font-semibold text-gray-300">Diverse Retail Ecosystem:</span> With 275 different retailers, the market is highly fragmented, making brand control and consistent pricing extremely challenging.</li>
+                        <li><span class="font-semibold text-gray-300">Premium Positioning Pressure:</span> Traditional electronics retailers (MediaMarkt, Cyberport) compete directly in the premium laptop space, potentially squeezing margins.</li>
+                    </ul>
+                    
+                    <h3 class="font-bold text-lg text-gray-200 mt-6">Pricing Intelligence:</h3>
+                    <ul class="list-disc list-inside text-sm space-y-2 text-gray-400">
+                        <li><span class="font-semibold text-gray-300">Playox.de</span> leads in price aggression (median 324 EUR when price leading).</li>
+                        <li>Premium specialists like <span class="font-semibold text-gray-300">NotebooksBllliger.de</span> maintain higher price points (median 779 EUR when leading).</li>
+                        <li><span class="font-semibold text-gray-300">Cyclotron.de</span> targets budget segments aggressively (median 174.93 EUR when price leading).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Strategic Opportunities & Recommendations -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-semibold text-gray-100">Strategic Opportunities & Recommendations</h2>
+                <div class="bg-gray-700/50 rounded-xl p-6 space-y-4">
+                    <h3 class="font-bold text-lg text-gray-200">Opportunities:</h3>
+                    <ul class="list-disc list-inside text-sm space-y-2 text-gray-400">
+                        <li><span class="font-semibold text-gray-300">Premium Market Gaps:</span> The <span class="font-semibold text-gray-300">over 2000 EUR segment</span> shows only 47 unique products across 71 retailers, suggesting potential for premium positioning with less competition intensity.</li>
+                        <li><span class="font-semibold text-gray-300">Specialist Channel Development:</span> Retailers like notebook.de and easynotebooks.de maintain higher average prices (862-864 EUR) with good price indices (95-96), indicating opportunity for specialist channel partnerships.</li>
+                        <li><span class="font-semibold text-gray-300">Monitor Market Potential:</span> This category shows strong volume (322 products) but low median prices (202.90 EUR), suggesting opportunity for value-engineered premium offerings.</li>
+                        <li><span class="font-semibold text-gray-300">Category Leadership:</span> Projectors and Docking Stations are underserved with limited competition.</li>
+                    </ul>
+                    
+                    <h3 class="font-bold text-lg text-gray-200 mt-6">Recommendations:</h3>
+                    <ul class="list-disc list-inside text-sm space-y-2 text-gray-400">
+                        <li>Focus on <span class="font-semibold text-gray-300">500-1000 EUR laptop segment</span> where competition is high but volumes are strongest.</li>
+                        <li>Develop <span class="font-semibold text-gray-300">specialized retail partnerships</span> with premium-focused channels.</li>
+                        <li>Consider <span class="font-semibold text-gray-300">monitor portfolio expansion</span> in higher value segments.</li>
+                        <li>Explore <span class="font-semibold text-gray-300">projector market leadership</span> given limited competition and high margins.</li>
+                        <li>Monitor price leadership patterns from <span class="font-semibold text-gray-300">Playox.de</span> and <span class="font-semibold text-gray-300">Cyclotron.de</span> to understand budget market dynamics.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Download Report Button -->
+    <button onclick="downloadReport()" class="fixed bottom-6 right-6 p-4 bg-gray-700 text-white rounded-full shadow-lg transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
+    </button>
+
+    <!-- JavaScript for "download" functionality -->
+    <script>
+        function downloadReport() {
+            const htmlContent = document.documentElement.outerHTML;
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'German_Acer_Market_Analysis_Report.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
